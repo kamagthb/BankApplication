@@ -8,3 +8,4 @@ Feature: Authorized users should be able to login
   Scenario: Login with invalid credentials
     When the user enters "a" "a" as invalid credentials
     Then error message should be displayed
+    Then error message should be displayed
